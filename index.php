@@ -1,8 +1,9 @@
-<?php
-include 'dbconnect.php';
-include 'header.php';
-include 'styles.php';
-?>
+
+include 'pages/dbconnect.php';
+include 'pages/header.php';
+include 'styles/styles.css';
+
+<link rel="icon" type="image/png" href="path-to-your-favicon/favicon.png">
 
 <div class="content">
     <h1>Welcome to My Website!</h1>
