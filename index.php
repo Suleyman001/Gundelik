@@ -1,8 +1,9 @@
-
-include 'pages/dbconnect.php';
-include 'pages/header.php';
-include 'styles/styles.css';
-
+<php
+include '/data/dbconnect.php';
+include '/pages/header.php';
+include '/pages/footer.php';
+include '/styles/styles.css';
+</php>
 <link rel="icon" type="image/png" href="path-to-your-favicon/favicon.png">
 
 <div class="content">
@@ -10,7 +11,7 @@ include 'styles/styles.css';
     <p>This is the home page content.</p>
 </div>
 
-<?php include 'footer.php'; ?>
+
 <script>
     // JavaScript for theme toggling
     const theme = localStorage.getItem('theme') || 'bright';
